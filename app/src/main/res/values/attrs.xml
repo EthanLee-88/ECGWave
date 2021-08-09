@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BaseRealTimeLineChart">
+        <attr format="boolean" name="draw_chart_bounds"/>
+        <attr format="color" name="bounds_color"/>
+        <attr format="dimension" name="bounds_width"/>
+        <attr name="mode">
+            <enum name="one_viewport" value="1"/>
+            <enum name="two_viewport" value="2"/>
+            <enum name="three_viewport" value="3"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
